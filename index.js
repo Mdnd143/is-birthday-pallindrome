@@ -155,7 +155,7 @@ function clickHandler(e) {
 
         } else {
             var [counter, nextdate] = getNextPalindromeDate(date)
-            document.querySelector(".output").innerHTML = `<img src="2.gif" style="width: 90px;" />`;
+            document.querySelector(".output").innerHTML = `Loading...`;
             setTimeout(() => { notPalindromeMessage(counter, nextdate) }, 3000);
         }
     }
